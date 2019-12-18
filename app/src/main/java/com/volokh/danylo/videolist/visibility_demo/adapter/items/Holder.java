@@ -1,8 +1,10 @@
 package com.volokh.danylo.videolist.visibility_demo.adapter.items;
 
-import android.support.v7.widget.RecyclerView;
+
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.volokh.danylo.videolist.R;
 

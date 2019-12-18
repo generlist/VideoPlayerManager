@@ -1,12 +1,13 @@
 package com.volokh.danylo.videolist.video_list_demo.fragments;
 
-import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.ListView;
+
+import androidx.fragment.app.Fragment;
 
 import com.volokh.danylo.video_player_manager.Config;
 import com.volokh.danylo.video_player_manager.manager.PlayerItemChangeListener;

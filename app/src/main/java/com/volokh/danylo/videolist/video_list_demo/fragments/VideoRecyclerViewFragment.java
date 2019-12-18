@@ -1,24 +1,24 @@
 package com.volokh.danylo.videolist.video_list_demo.fragments;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
 
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.volokh.danylo.video_player_manager.Config;
 import com.volokh.danylo.video_player_manager.manager.PlayerItemChangeListener;
-import com.volokh.danylo.video_player_manager.meta.CurrentItemMetaData;
+import com.volokh.danylo.video_player_manager.manager.SingleVideoPlayerManager;
+import com.volokh.danylo.video_player_manager.manager.VideoPlayerManager;
 import com.volokh.danylo.video_player_manager.meta.MetaData;
 import com.volokh.danylo.videolist.R;
 import com.volokh.danylo.videolist.video_list_demo.adapter.VideoRecyclerViewAdapter;
 import com.volokh.danylo.videolist.video_list_demo.adapter.items.BaseVideoItem;
 import com.volokh.danylo.videolist.video_list_demo.adapter.items.ItemFactory;
-import com.volokh.danylo.video_player_manager.manager.SingleVideoPlayerManager;
-import com.volokh.danylo.video_player_manager.manager.VideoPlayerManager;
 import com.volokh.danylo.visibility_utils.calculator.DefaultSingleItemCalculatorCallback;
 import com.volokh.danylo.visibility_utils.calculator.ListItemsVisibilityCalculator;
 import com.volokh.danylo.visibility_utils.calculator.SingleListViewItemActiveCalculator;
